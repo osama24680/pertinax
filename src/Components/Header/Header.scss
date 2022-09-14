@@ -1,0 +1,108 @@
+.header {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+    video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .layer__header {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #0000002e;
+
+
+        .header__content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .header__content-leftSide {
+                display: flex;
+                flex-direction: column;
+                margin-top: 8rem;
+                width: 40%;
+                padding-left: 1.5rem;
+
+                h2 {
+                    font-size: 3rem;
+                    color: var(--white);
+                    -webkit-text-stroke: 2px black;
+                    margin-bottom: 0.5rem;
+                }
+
+                h1 {
+                    font-size: 3.5rem;
+                    color: var(--white);
+                    -webkit-text-stroke: 2px var(--main__green);
+                    margin-bottom: 0.5rem;
+                }
+
+                p {
+                    color: var(--white);
+                    font-size: .7rem;
+                    margin-bottom: 1.2rem;
+                }
+
+                div {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: var(--main__green);
+                    font-weight: bold;
+                    font-size: 1.2rem;
+                    width: 25%;
+                    padding: .7rem 0;
+                    cursor: pointer;
+
+                    button {
+                        border: none;
+                        outline: none;
+                        background-color: transparent;
+                        color: var(--white);
+                        cursor: pointer;
+                    }
+
+                    svg {
+                        color: var(--white);
+
+                    }
+
+                    &:hover {
+                        background-color: var(--heavy__green);
+                    }
+
+                    &:hover svg {
+                        margin-left: 5px;
+                    }
+                }
+
+
+            }
+
+            .header__content-rightSide {
+                clip-path: polygon(44% 0, 100% 0%, 100% 100%, 0% 100%);
+                background: var(--main__green);
+                width: 50%;
+                height: 100vh;
+                opacity: .8;
+
+                img {
+                    width: 100%;
+
+                    margin-top: 3.8rem;
+                }
+            }
+        }
+
+
+    }
+}

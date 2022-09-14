@@ -1,0 +1,14 @@
+.Custom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.Custom .Custom__leftSide {
+  width: 50%;
+}
+
+.Custom .Custom__rightSide {
+  width: 50%;
+}
