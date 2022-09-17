@@ -1,0 +1,72 @@
+.BMI {
+    margin-top: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    .BMI__leftSide {
+        width: 50%;
+        padding-left: 2rem;
+        margin: auto;
+
+        p {
+            color: var(--text_color_light);
+            font-size: .8rem;
+            margin: .7rem 0 .5rem 0;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+
+            .inputs {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 1rem;
+
+
+                .Forminput {
+                    position: relative;
+                    input {
+                        border: 2px solid var(--heavy__green);
+                        padding: .8rem 1rem;
+                        outline: none;
+                        background-color: transparent;
+                        color: var(--heavy__green)
+                    }
+                    p{
+                        position: absolute;
+                        right:7%;
+                        top:10%;
+                        transform: translateY(-10%);
+                        color:var(--white)
+                    }
+                }
+            }
+            button{
+                background-color: var(--heavy__green);
+                outline: none;
+                border:1px solid var(--white);
+                margin-top: 2rem;
+                padding: 1rem;
+                color:var(--white);
+                cursor: pointer;
+            }
+            h3{
+                text-align: center;
+                color:var(--heavy__green);
+                margin-top: 20px;
+            }
+        }
+    }
+    .BMI__rightSide{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        img{
+            width: 50%;
+
+        }
+    }
+}

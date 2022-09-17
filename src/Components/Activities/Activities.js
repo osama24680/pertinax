@@ -3,11 +3,11 @@ import "./Activities.scss"
 import dumbbel from "../../assets/activities/dumbbel.png"
 import yoga from "../../assets/activities/yoga.png"
 import cardio from "../../assets/activities/cardio.png"
+import HeadingText from "../HeadingText/HeadingText"
 const Activities = () => {
     return (
         <div className="activities">
-            <h2>Our Activities</h2>
-            <h1><span>Build Your</span> Best Body</h1>
+            <HeadingText greenText={"Our Activities"} shadowText={"Build Your"} whiteText={"Best Body"} />
             <div className="activity_types">
                 <div className="type">
                     <div> <img src={dumbbel} alt="" /></div>

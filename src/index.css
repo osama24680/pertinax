@@ -4,10 +4,13 @@
 :root {
   --white: #fff;
   --black: #000;
+  --pink: #FFA9A9;
+  --orange: #FCC757;
 
   --main__green: hsl(79, 72%, 55%);
   --light__green: hsl(79, 97%, 77%);
   --heavy__green: hsl(79, 100%, 37%);
+  --first_color_dark: hsl(79, 63%, 50%);
   --dead__green: hsl(156, 31%, 19%);
   --first_color_gray: hsl(79, 6%, 64%);
   --body__color: hsl(180, 12%, 8%);
@@ -15,10 +18,10 @@
   --light_black: hsl(213, 12%, 29%);
 
 
-  --first-color-alt: hsl(79, 67%, 52%);
-  --first-color-dark: hsl(79, 63%, 50%);
-  --title-color: hsl(180, 4%, 98%);
-  --text-color: hsl(180, 4%, 72%);
+  --first_color_alt: hsl(79, 78%, 87%);
+
+  --title_color: hsl(180, 4%, 98%);
+  --text_color: hsl(180, 4%, 72%);
   --text_color_light: hsl(180, 4%, 65%);
  
 
@@ -27,6 +30,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   background-color: var(--body__color);
+  -webkit-appearance: none;
 }
 
 code {
@@ -45,4 +49,18 @@ code {
 .container {
   width: 92%;
   margin: auto;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+a{
+  text-decoration: none;
 }

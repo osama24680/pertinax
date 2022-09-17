@@ -1,0 +1,23 @@
+.muscles {
+    .currentExercisesClass {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        flex-wrap: wrap;
+        row-gap: 3rem;
+    }
+
+    .materialPagination {
+        padding: 4rem 0;
+        margin: auto;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.css-1btlf6t-MuiButtonBase-root-MuiPaginationItem-root {
+    color: gold !important
+}

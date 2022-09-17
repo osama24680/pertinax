@@ -1,0 +1,35 @@
+.ExerciseCard {
+    width: 30%;
+    border: 2px solid var(--heavy__green);
+    border-radius: 7px;
+    background-color: var(--first_color_alt);
+
+    img {
+        width: 100%;
+        border-radius: 5px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        mix-blend-mode: multiply;
+    }
+    .ExerciseButtons{
+        button{
+            padding: .8rem 1.6rem;
+            border:none;
+            outline: none;
+            border-radius: 10px;
+            margin-left: 20px;
+            background-color: var(--pink);
+        }
+        :last-child{
+            background-color: var(--orange);
+        }
+        
+    }
+    p{
+        margin-left: 20px;
+        padding: 1rem 0;
+    }
+    &:hover{
+        transform: scale(1.1);
+    }
+}

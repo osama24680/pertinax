@@ -1,0 +1,95 @@
+.ExerciseDetails {
+  width: 90%;
+  margin: auto;
+  margin-top: 5rem;
+}
+
+.ExerciseDetails h2 {
+  color: var(--white);
+  font-weight: bold;
+  margin: 3rem 0;
+}
+
+.ExerciseDetails h2 span {
+  color: var(--main__green);
+}
+
+.ExerciseDetails .muscle__section {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.ExerciseDetails .muscle__section .muscle__section-img {
+  width: 40%;
+  background-color: var(--first_color_alt);
+  border: 2px solid var(--heavy__green);
+  border-radius: 7px;
+  flex: 1;
+}
+
+.ExerciseDetails .muscle__section .muscle__section-img img {
+  width: 100%;
+  mix-blend-mode: multiply;
+  border-radius: 5px;
+}
+
+.ExerciseDetails .muscle__section .muscle__section-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 18rem;
+  flex: 1;
+}
+
+.ExerciseDetails .muscle__section .muscle__section-data div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.ExerciseDetails .muscle__section .muscle__section-data div img {
+  display: block;
+  padding: 1rem;
+  background-color: var(--text_color);
+  border-radius: 50%;
+}
+
+.ExerciseDetails .muscle__section .muscle__section-data div p {
+  margin-left: 20px;
+  color: var(--white);
+  font-weight: bold;
+}
+
+.ExerciseDetails .videos__section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  row-gap: 3rem;
+}
+
+.ExerciseDetails .videos__section a {
+  width: 30%;
+}
+
+.ExerciseDetails .videos__section a img {
+  width: 100%;
+  height: 300px;
+  border: 2px solid var(--heavy__green);
+  border-radius: 7px;
+  display: block;
+}
+
+.ExerciseDetails .videos__section a p {
+  margin-top: 1rem;
+  color: var(--text_color);
+}
+
+.ExerciseDetails .similar__section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 3rem;
+  margin-bottom: 3rem;
+}

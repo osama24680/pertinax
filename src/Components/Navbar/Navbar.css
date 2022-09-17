@@ -1,4 +1,4 @@
-nav {
+.navbar {
   display: flex;
   justify-content: space-between;
   color: var(--white);
@@ -13,19 +13,19 @@ nav {
   z-index: 100;
 }
 
-nav .logo {
+.navbar .logo {
   width: 30%;
   font-weight: bold;
   font-size: 1.7rem;
   color: var(--light__green);
 }
 
-nav .logo span {
+.navbar .logo span {
   font-size: 2rem;
   color: var(--main__green);
 }
 
-nav ul {
+.navbar ul {
   list-style: none;
   display: flex;
   width: 50%;
@@ -33,7 +33,7 @@ nav ul {
   align-items: center;
 }
 
-nav ul :last-child {
+.navbar ul :last-child {
   color: var(--black);
   background-color: var(--white);
   padding: .6rem 1.2rem;
@@ -42,13 +42,13 @@ nav ul :last-child {
   opacity: .5;
 }
 
-nav ul :last-child:hover {
+.navbar ul :last-child:hover {
   color: var(--white);
   background-color: transparent;
   opacity: 1;
 }
 
-nav ul li:hover {
+.navbar ul li:hover {
   color: var(--main__green);
   cursor: pointer;
 }
